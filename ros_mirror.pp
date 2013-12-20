@@ -20,7 +20,7 @@ file {'/mirror/packages.ros.org/mirror.list':
   source => 'puppet:///modules/mirror/mirror.list',
 }
 
-file {['/mirror', '/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror', '/mirror/wiki.ros.org', '/mirror/docs.ros.org']:
+file {['/mirror', '/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror', '/mirror/packages.ros.org/mirror/packages.ros.org', '/mirror/wiki.ros.org', '/mirror/docs.ros.org']:
   ensure => directory,
   mode   => 644,
   owner  => 'rosmirror',
