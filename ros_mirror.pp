@@ -1,3 +1,5 @@
+import 'mirror'
+
 package { 'git':
   ensure => present
 }
@@ -15,14 +17,15 @@ file {'/mirror/packages.ros.org/mirror.list':
   ensure => file,
   mode => 664,
   owner => 'rosmirror',
-  source => 'config/mirror.list',
+  source => 'puppet:///modules/mirror/mirror.list',
 }
 
-file {['/mirror', '/mirror/packages.ros.org', '/mirror/wiki.ros.org', '/mirror/docs.ros.org']:
+file {['/mirror', '/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror', '/mirror/wiki.ros.org', '/mirror/docs.ros.org']:
   ensure => directory,
   mode   => 644,
   owner  => 'rosmirror',
-  before => File['/mirror/packages.ros.org/mirror.list']
+  before => [ Apache::Vhost['packages.ros.org.mirror'],
+              File['/mirror/packages.ros.org/mirror.list'] ],
 }
 
 user {'rosmirror':
