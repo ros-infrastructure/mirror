@@ -20,7 +20,7 @@ file {'/mirror/packages.ros.org/mirror.list':
   source => 'puppet:///modules/mirror/mirror.list',
 }
 
-file {['/mirror', '/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror', '/mirror/packages.ros.org/mirror/packages.ros.org', '/mirror/wiki.ros.org', '/mirror/docs.ros.org']:
+file {['/mirror', '/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror', '/mirror/packages.ros.org/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror/packages.osrfoundation.org', '/mirror/wiki.ros.org', '/mirror/docs.ros.org']:
   ensure => directory,
   mode   => 644,
   owner  => 'rosmirror',
@@ -80,6 +80,13 @@ apache::vhost{'packages.ros.org.mirror':
   port => '80',
   docroot => '/mirror/packages.ros.org/mirror/packages.ros.org',
   serveraliases => ['packages.ros.org*',],
+}
+
+apache::vhost{'packages.osrfoundation.org.mirror':
+  vhost_name => "*",
+  port => '80',
+  docroot => '/mirror/packages.ros.org/mirror/packages.osrfoundation.org',
+  serveraliases => ['packages.osrfoundation.org*',],
 }
 
 
