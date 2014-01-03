@@ -46,3 +46,9 @@ deb http://packages.ros.org/ros-shadow-fixed/ubuntu raring main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu raring main
 
 clean http://packages.ros.org/ros/ubuntu
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu precise main
+deb http://packages.osrfoundation.org/gazebo/ubuntu quantal main
+deb http://packages.osrfoundation.org/gazebo/ubuntu raring main
+
+clean http://packages.osrfoundation.org/gazebo/ubuntu
