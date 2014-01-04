@@ -23,7 +23,7 @@ sudo puppet apply ros_mirror.pp --modulepath=/etc/puppet/modules:/usr/share/pupp
 ```
 
 Overnight the sync jobs will run and you can see that they are setup correctly by running:
-> sudo crontab -l rosmirror
+> sudo crontab -u rosmirror -l
 
 If you want to accelerate the download process you can su to rosmirror and run the cron jobs. '''Make sure to run any of the jobs as user rosmirror''' And please do not remove the throttling so as not to overload the main servers. 
 
