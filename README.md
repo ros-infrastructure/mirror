@@ -15,7 +15,7 @@ Run the following commands:
 ```
 sudo apt-get update
 sudo apt-get install rubygems git
-sudo gem install puppet
+sudo gem install puppet --no-ri --no-rdoc
 sudo puppet module install puppetlabs/apache
 git clone https://github.com/ros-infrastructure/mirror.git
 cd mirror
