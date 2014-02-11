@@ -64,7 +64,7 @@ apache::vhost{'docs.ros.org.mirror':
   vhost_name => "*",
   port => '80',
   docroot => '/mirror/docs.ros.org',
-  serveraliases => ['docs.ros.org*',],
+  serveraliases => ['*docs.ros.org*',],
 }
 
 
@@ -73,21 +73,21 @@ apache::vhost{'wiki.ros.org.mirror':
   port => '80',
   docroot => '/mirror/wiki.ros.org',
   override => 'All',
-  serveraliases => ['wiki.ros.org*',],
+  serveraliases => ['*wiki.ros.org*',],
 }
 
 apache::vhost{'packages.ros.org.mirror':
   vhost_name => "*",
   port => '80',
   docroot => '/mirror/packages.ros.org/mirror/packages.ros.org',
-  serveraliases => ['packages.ros.org*',],
+  serveraliases => ['*packages.ros.org*',],
 }
 
 apache::vhost{'packages.osrfoundation.org.mirror':
   vhost_name => "*",
   port => '80',
   docroot => '/mirror/packages.ros.org/mirror/packages.osrfoundation.org',
-  serveraliases => ['packages.osrfoundation.org*',],
+  serveraliases => ['*packages.osrfoundation.org*',],
 }
 
 apache::mod { 'headers': }
