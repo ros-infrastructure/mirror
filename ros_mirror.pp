@@ -71,6 +71,7 @@ apache::vhost{'docs.ros.org.mirror':
 apache::vhost{'wiki.ros.org.mirror':
   vhost_name => "*",
   port => '80',
+  overrride => 'All',
   docroot => '/mirror/wiki.ros.org',
   serveraliases => ['wiki.ros.org*',],
 }
