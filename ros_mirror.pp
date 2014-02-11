@@ -89,6 +89,7 @@ apache::vhost{'packages.osrfoundation.org.mirror':
   serveraliases => ['packages.osrfoundation.org*',],
 }
 
+apache::mod { 'headers': }
 
 # for testing
 host { 'localhost':
