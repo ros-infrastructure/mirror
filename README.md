@@ -3,7 +3,7 @@ ROS Mirror Puppet Manifest
 
 This repo provides a way to easily mirror the ROS services. 
 
-The machine will need ~ 100 GB of disk space and as much bandwidth as you plan to pull. 
+The machine will need ~ 100 GB of disk space in the /mirror directory and as much bandwidth as you plan to pull. 
 
 This is tested on Ubuntu Precise LTS
 
