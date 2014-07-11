@@ -4,10 +4,6 @@ package { 'git':
   ensure => present
 }
 
-package { 'rsync':
-  ensure => present
-}
-
 package { 'apt-mirror':
   ensure => present,
 #  before => File['/mirror/packages.ros.org/mirror.list']
@@ -96,4 +92,12 @@ apache::mod { 'headers': }
 host { 'localhost':
   ip => '127.0.0.1',
   host_aliases => ['docs.ros.org.example.com', 'wiki.ros.org.example.com', 'packages.ros.org.example.com',],
+}
+
+
+class {'rsync::server': }
+
+rsync::server::module{'mirrorlogs':
+  path => '/var/log/apache2',
+  hosts_allow => ['ros.osuosl.org', 'localhost'],
 }
