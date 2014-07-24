@@ -99,5 +99,5 @@ class {'rsync::server': }
 
 rsync::server::module{'mirrorlogs':
   path => '/var/log/apache2',
-  hosts_allow => ['ros.osuosl.org', 'localhost'],
+  hosts_allow => ['web1.osuosl.org', 'ros.osuosl.org', 'localhost'],
 }
