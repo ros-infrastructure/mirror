@@ -38,3 +38,22 @@ The above configuration has setup the mirrors such that on the localhost you can
 The apache instance has virtual hosts setup such that it will respond to subdomains which match the ros domains. So the wiki will match anything wiki.ros.org.* and likewise docs.ros.org.* and packages.ros.org.*
 
 To make this easily accessable to your network add a DNS entry for the names wiki.ros.org.myorganization.org which point to the installed server. 
+
+Mailing list
+------------
+
+If you are maintaining a mirror please join the mirror-admins list: https://groups.google.com/a/osrfoundation.org/d/forum/mirror-admins for both feedback and prompt updates. 
+
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/a/osrfoundation.org/forum/embed/?place=forum/mirror-admins'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
