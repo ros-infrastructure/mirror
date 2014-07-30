@@ -54,6 +54,22 @@ deb http://packages.ros.org/ros-shadow-fixed/ubuntu raring main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu raring main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu raring main
 
+deb http://packages.ros.org/ros/ubuntu saucy main
+deb-i386 http://packages.ros.org/ros/ubuntu saucy main
+deb-src http://packages.ros.org/ros/ubuntu saucy main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
+
+deb http://packages.ros.org/ros/ubuntu trusty main
+deb-i386 http://packages.ros.org/ros/ubuntu trusty main
+deb-src http://packages.ros.org/ros/ubuntu trusty main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
+
 clean http://packages.ros.org/ros/ubuntu
 
 # Gazebo Repositories
@@ -66,5 +82,11 @@ deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu quantal main
 
 deb http://packages.osrfoundation.org/gazebo/ubuntu raring main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu raring main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu saucy main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu saucy main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu trusty main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu trusty main
 
 clean http://packages.osrfoundation.org/gazebo/ubuntu
