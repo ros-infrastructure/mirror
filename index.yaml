@@ -1,0 +1,13 @@
+mirrors:
+ - mirror-ap.wiki.ros.org:
+   docs: http://mirror-ap.docs.ros.org/
+   logs_rsync: mirror-ap.wiki.ros.org::mirrorlogs
+   maintainer: tfoote@osrfoundation.org
+   packages: http://mirror-ap.packages.ros.org/
+   wiki: http://mirror-ap.wiki.ros.org/
+ - mirror-eu.wiki.ros.org:
+   docs: http://mirror-eu.docs.ros.org/
+   logs_rsync: mirror-eu.wiki.ros.org::mirrorlogs
+   maintainer: tfoote@osrfoundation.org
+   packages: http://mirror-eu.packages.ros.org/
+   wiki: http://mirror-eu.wiki.ros.org/
