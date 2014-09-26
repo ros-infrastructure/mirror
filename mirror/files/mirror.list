@@ -9,6 +9,7 @@ set base_path    /mirror/packages.ros.org
 # set cleanscript $var_path/clean.sh
 # set defaultarch  <running host architecture>
 # set postmirror_script $var_path/postmirror.sh
+set postmirror_script $var_path/clean.sh
 # set run_postmirror 0
 set nthreads     20
 set _tilde 0
@@ -70,6 +71,7 @@ deb http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 
+clean http://packages.ros.org/ros-shadow-fixed/ubuntu
 clean http://packages.ros.org/ros/ubuntu
 
 # Gazebo Repositories
