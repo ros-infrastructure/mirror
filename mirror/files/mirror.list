@@ -63,6 +63,14 @@ deb http://packages.ros.org/ros-shadow-fixed/ubuntu utopic main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu utopic main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu utopic main
 
+deb http://packages.ros.org/ros/ubuntu vivid main
+deb-i386 http://packages.ros.org/ros/ubuntu vivid main
+deb-src http://packages.ros.org/ros/ubuntu vivid main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
+
 deb http://packages.ros.org/ros/ubuntu wily main
 deb-i386 http://packages.ros.org/ros/ubuntu wily main
 deb-src http://packages.ros.org/ros/ubuntu wily main
@@ -95,6 +103,9 @@ deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu trusty main
 
 deb http://packages.osrfoundation.org/gazebo/ubuntu utopic main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu utopic main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu vivid main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu vivid main
 
 deb http://packages.osrfoundation.org/gazebo/ubuntu wily main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu wily main
