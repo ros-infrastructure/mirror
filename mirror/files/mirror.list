@@ -31,11 +31,25 @@ set _tilde 0
 #clean http://archive.ubuntu.com/ubuntu
 
 # ROS Repos
+deb http://packages.ros.org/ros/ubuntu jessie main
+deb-arm64 http://packages.ros.org/ros/ubuntu jessie main
+deb-armhf http://packages.ros.org/ros/ubuntu jessie main
+deb-i386 http://packages.ros.org/ros/ubuntu jessie main
+deb-src http://packages.ros.org/ros/ubuntu jessie main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu jessie main
+deb-arm64 http://packages.ros.org/ros-shadow-fixed/ubuntu jessie main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu jessie main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu jessie main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu jessie main
+
 deb http://packages.ros.org/ros/ubuntu precise main
+deb-armhf http://packages.ros.org/ros/ubuntu precise main
 deb-i386 http://packages.ros.org/ros/ubuntu precise main
 deb-src http://packages.ros.org/ros/ubuntu precise main
 
 deb http://packages.ros.org/ros-shadow-fixed/ubuntu precise main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu precise main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu precise main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu precise main
 
@@ -48,10 +62,12 @@ deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
 
 deb http://packages.ros.org/ros/ubuntu trusty main
+deb-armhf http://packages.ros.org/ros/ubuntu trusty main
 deb-i386 http://packages.ros.org/ros/ubuntu trusty main
 deb-src http://packages.ros.org/ros/ubuntu trusty main
 
 deb http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 
@@ -70,6 +86,26 @@ deb-src http://packages.ros.org/ros/ubuntu vivid main
 deb http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
+
+deb http://packages.ros.org/ros/ubuntu wily main
+deb-i386 http://packages.ros.org/ros/ubuntu wily main
+deb-src http://packages.ros.org/ros/ubuntu wily main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu wily main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu wily main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu wily main
+
+deb http://packages.ros.org/ros/ubuntu xenial main
+deb-arm64 http://packages.ros.org/ros/ubuntu xenial main
+deb-armhf http://packages.ros.org/ros/ubuntu xenial main
+deb-i386 http://packages.ros.org/ros/ubuntu xenial main
+deb-src http://packages.ros.org/ros/ubuntu xenial main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main
+deb-arm64 http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main
 
 clean http://packages.ros.org/ros-shadow-fixed/ubuntu
 clean http://packages.ros.org/ros/ubuntu
@@ -90,5 +126,11 @@ deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu utopic main
 
 deb http://packages.osrfoundation.org/gazebo/ubuntu vivid main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu vivid main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu wily main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu wily main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu xenial main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu xenial main
 
 clean http://packages.osrfoundation.org/gazebo/ubuntu
