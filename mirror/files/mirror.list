@@ -45,10 +45,14 @@ deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu jessie main
 
 deb http://packages.ros.org/ros/ubuntu stretch main
 #deb-arm64 http://packages.ros.org/ros/ubuntu stretch main
+deb-armhf http://packages.ros.org/ros/ubuntu stretch main
+deb-i386 http://packages.ros.org/ros/ubuntu stretch main
 deb-src http://packages.ros.org/ros/ubuntu stretch main
 
 deb http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
 #deb-arm64 http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
 
 deb http://packages.ros.org/ros/ubuntu precise main
@@ -116,15 +120,27 @@ deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main
 
 deb http://packages.ros.org/ros/ubuntu yakkety main
+#deb-arm64 http://packages.ros.org/ros/ubuntu yakkety main
+deb-armhf http://packages.ros.org/ros/ubuntu yakkety main
+deb-i386 http://packages.ros.org/ros/ubuntu yakkety main
 deb-src http://packages.ros.org/ros/ubuntu yakkety main
 
 deb http://packages.ros.org/ros-shadow-fixed/ubuntu yakkety main
+#deb-arm64 http://packages.ros.org/ros-shadow-fixed/ubuntu yakkety main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu yakkety main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu yakkety main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu yakkety main
 
 deb http://packages.ros.org/ros/ubuntu zesty main
+#deb-arm64 http://packages.ros.org/ros/ubuntu zesty main
+deb-armhf http://packages.ros.org/ros/ubuntu zesty main
+deb-i386 http://packages.ros.org/ros/ubuntu zesty main
 deb-src http://packages.ros.org/ros/ubuntu zesty main
 
 deb http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
+#deb-arm64 http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
 
 clean http://packages.ros.org/ros-shadow-fixed/ubuntu
