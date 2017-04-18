@@ -169,4 +169,10 @@ deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu wily main
 deb http://packages.osrfoundation.org/gazebo/ubuntu xenial main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu xenial main
 
+deb http://packages.osrfoundation.org/gazebo/ubuntu yakkety main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu yakkety main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+
 clean http://packages.osrfoundation.org/gazebo/ubuntu
