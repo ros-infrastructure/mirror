@@ -65,14 +65,6 @@ deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu precise main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu precise main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu precise main
 
-deb http://packages.ros.org/ros/ubuntu saucy main
-deb-i386 http://packages.ros.org/ros/ubuntu saucy main
-deb-src http://packages.ros.org/ros/ubuntu saucy main
-
-deb http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
-deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
-deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu saucy main
-
 deb http://packages.ros.org/ros/ubuntu trusty main
 deb-armhf http://packages.ros.org/ros/ubuntu trusty main
 deb-i386 http://packages.ros.org/ros/ubuntu trusty main
@@ -82,30 +74,6 @@ deb http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu trusty main
-
-deb http://packages.ros.org/ros/ubuntu utopic main
-deb-i386 http://packages.ros.org/ros/ubuntu utopic main
-deb-src http://packages.ros.org/ros/ubuntu utopic main
-
-deb http://packages.ros.org/ros-shadow-fixed/ubuntu utopic main
-deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu utopic main
-deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu utopic main
-
-deb http://packages.ros.org/ros/ubuntu vivid main
-deb-i386 http://packages.ros.org/ros/ubuntu vivid main
-deb-src http://packages.ros.org/ros/ubuntu vivid main
-
-deb http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
-deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
-deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu vivid main
-
-deb http://packages.ros.org/ros/ubuntu wily main
-deb-i386 http://packages.ros.org/ros/ubuntu wily main
-deb-src http://packages.ros.org/ros/ubuntu wily main
-
-deb http://packages.ros.org/ros-shadow-fixed/ubuntu wily main
-deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu wily main
-deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu wily main
 
 deb http://packages.ros.org/ros/ubuntu xenial main
 #deb-arm64 http://packages.ros.org/ros/ubuntu xenial main
@@ -151,22 +119,41 @@ clean http://packages.ros.org/ros/ubuntu
 deb http://packages.osrfoundation.org/gazebo/ubuntu precise main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu precise main
 
-deb http://packages.osrfoundation.org/gazebo/ubuntu saucy main
-deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu saucy main
-
 deb http://packages.osrfoundation.org/gazebo/ubuntu trusty main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/ubuntu trusty main
+deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu trusty main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu trusty main
-
-deb http://packages.osrfoundation.org/gazebo/ubuntu utopic main
-deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu utopic main
-
-deb http://packages.osrfoundation.org/gazebo/ubuntu vivid main
-deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu vivid main
-
-deb http://packages.osrfoundation.org/gazebo/ubuntu wily main
-deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu wily main
+deb-src http://packages.osrfoundation.org/gazebo/ubuntu trusty main
 
 deb http://packages.osrfoundation.org/gazebo/ubuntu xenial main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/ubuntu xenial main
+deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu xenial main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu xenial main
+deb-src http://packages.osrfoundation.org/gazebo/ubuntu xenial main
 
+deb http://packages.osrfoundation.org/gazebo/ubuntu yakkety main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/ubuntu yakkety main
+deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu yakkety main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu yakkety main
+deb-src http://packages.osrfoundation.org/gazebo/ubuntu yakkety main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+deb-src http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+
+deb http://packages.osrfoundation.org/gazebo/debian-stable jessie main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/debian-stable jessie main
+deb-armhf http://packages.osrfoundation.org/gazebo/debian-stable jessie main
+deb-i386 http://packages.osrfoundation.org/gazebo/debian-stable jessie main
+deb-src http://packages.osrfoundation.org/gazebo/debian-stable jessie main
+
+deb http://packages.osrfoundation.org/gazebo/debian-stable stretch main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/debian-stable stretch main
+deb-armhf http://packages.osrfoundation.org/gazebo/debian-stable stretch main
+deb-i386 http://packages.osrfoundation.org/gazebo/debian-stable stretch main
+deb-src http://packages.osrfoundation.org/gazebo/debian-stable stretch main
+
+clean http://packages.osrfoundation.org/gazebo/debian-stable
 clean http://packages.osrfoundation.org/gazebo/ubuntu
