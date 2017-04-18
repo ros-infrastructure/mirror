@@ -18,6 +18,7 @@ sudo apt-get install rubygems git
 sudo gem install puppet --no-ri --no-rdoc -v 3.8.7
 sudo puppet module install puppetlabs/apache
 sudo puppet module install puppetlabs/rsync
+sudo puppet module install puppet-unattended_upgrades
 git clone https://github.com/ros-infrastructure/mirror.git
 cd mirror
 sudo puppet apply ros_mirror.pp --modulepath=/etc/puppet/modules:/usr/share/puppet/modules:.
