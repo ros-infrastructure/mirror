@@ -38,7 +38,7 @@ user {'rosmirror':
 
 cron { 'docs.ros.org_mirror':
   ensure => present,
-  command => "rsync -aqz docs.ros.org::mirror /mirror/docs.ros.org --bwlimit=200 --copy-unsafe-links --delete",
+  command => "rsync -aqz rsync.osuosl.org::ros_docs_mirror /mirror/docs.ros.org --bwlimit=200 --copy-unsafe-links --delete",
   user => 'rosmirror',
   minute => [12],
   hour => [0],
@@ -46,7 +46,7 @@ cron { 'docs.ros.org_mirror':
 
 cron { 'wiki.ros.org_mirror':
   ensure => present,
-  command => "rsync -aqz wiki.ros.org::wiki_mirror /mirror/wiki.ros.org --bwlimit=200 --copy-unsafe-links --delete",
+  command => "rsync -aqz rsync.osuosl.org::ros_wiki_mirror /mirror/wiki.ros.org --bwlimit=200 --copy-unsafe-links --delete",
   user => 'rosmirror',
   minute => [12],
   hour => [2],
