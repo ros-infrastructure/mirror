@@ -40,24 +40,24 @@ cron { 'docs.ros.org_mirror':
   ensure => present,
   command => "rsync -aqz rsync.osuosl.org::ros_docs_mirror /mirror/docs.ros.org --bwlimit=200 --copy-unsafe-links --delete",
   user => 'rosmirror',
-  minute => [12],
-  hour => [0],
+  minute => [fqdn_rand(59)],
+  hour => [fqdn_rand(23)],
 }
 
 cron { 'wiki.ros.org_mirror':
   ensure => present,
   command => "rsync -aqz rsync.osuosl.org::ros_wiki_mirror /mirror/wiki.ros.org --bwlimit=200 --copy-unsafe-links --delete",
   user => 'rosmirror',
-  minute => [12],
-  hour => [2],
+  minute => [fqdn_rand(59)],
+  hour => [fqdn_rand(23)],
 }
 
 cron { 'packages.ros.org_mirror':
   ensure => present,
   command => "apt-mirror /mirror/packages.ros.org/mirror.list",
   user => 'rosmirror',
-  minute => [12],
-  hour => [3],
+  minute => [fqdn_rand(59)],
+  hour => [fqdn_rand(23)],
 }
 
 class { 'apache': }
