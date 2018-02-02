@@ -111,6 +111,30 @@ deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu zesty main
 
+deb http://packages.ros.org/ros/ubuntu artful main
+#deb-arm64 http://packages.ros.org/ros/ubuntu artful main
+deb-armhf http://packages.ros.org/ros/ubuntu artful main
+deb-i386 http://packages.ros.org/ros/ubuntu artful main
+deb-src http://packages.ros.org/ros/ubuntu artful main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu artful main
+#deb-arm64 http://packages.ros.org/ros-shadow-fixed/ubuntu artful main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu artful main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu artful main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu artful main
+
+deb http://packages.ros.org/ros/ubuntu bionic main
+#deb-arm64 http://packages.ros.org/ros/ubuntu bionic main
+deb-armhf http://packages.ros.org/ros/ubuntu bionic main
+deb-i386 http://packages.ros.org/ros/ubuntu bionic main
+deb-src http://packages.ros.org/ros/ubuntu bionic main
+
+deb http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
+#deb-arm64 http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
+deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
+deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
+deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
+
 clean http://packages.ros.org/ros-shadow-fixed/ubuntu
 clean http://packages.ros.org/ros/ubuntu
 
@@ -142,6 +166,12 @@ deb http://packages.osrfoundation.org/gazebo/ubuntu zesty main
 deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu zesty main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu zesty main
 deb-src http://packages.osrfoundation.org/gazebo/ubuntu zesty main
+
+deb http://packages.osrfoundation.org/gazebo/ubuntu artful main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/ubuntu artful main
+deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu artful main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu artful main
+deb-src http://packages.osrfoundation.org/gazebo/ubuntu artful main
 
 deb http://packages.osrfoundation.org/gazebo/debian-stable jessie main
 #deb-arm64 http://packages.osrfoundation.org/gazebo/debian-stable jessie main
