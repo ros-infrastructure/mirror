@@ -173,6 +173,12 @@ deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu-stable artful main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu-stable artful main
 deb-src http://packages.osrfoundation.org/gazebo/ubuntu-stable artful main
 
+deb http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
+deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
+deb-src http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
+
 deb http://packages.osrfoundation.org/gazebo/debian-stable jessie main
 #deb-arm64 http://packages.osrfoundation.org/gazebo/debian-stable jessie main
 deb-armhf http://packages.osrfoundation.org/gazebo/debian-stable jessie main
