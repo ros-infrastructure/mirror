@@ -3,9 +3,9 @@ ROS Mirror Puppet Manifest
 
 This repo provides a way to easily mirror the ROS services. 
 
-The machine will need ~ 150 GB of disk space in the /mirror directory and as much bandwidth as you plan to pull. 
+The machine will need ~ 200 GB of disk space in the /mirror directory and as much bandwidth as you plan to pull. 
 
-This is tested on Ubuntu Precise LTS
+This is tested on Ubuntu Xenial LTS (16.04) and Ubuntu Bionic LTS (18.04)
 
 How to Setup
 ------------
@@ -15,13 +15,14 @@ Run the following commands:
 ```
 sudo apt-get update
 sudo apt-get install rubygems git
-sudo gem install puppet --no-ri --no-rdoc -v 3.8.7
+sudo gem install puppet --no-ri --no-rdoc
+sudo puppet module install puppetlabs-apt
 sudo puppet module install puppetlabs/apache
 sudo puppet module install puppetlabs/rsync
 sudo puppet module install puppet-unattended_upgrades
 git clone https://github.com/ros-infrastructure/mirror.git
 cd mirror
-sudo puppet apply ros_mirror.pp --modulepath=/etc/puppet/modules:/usr/share/puppet/modules:.
+sudo puppet apply ros_mirror.pp --modulepath=/etc/puppetlabs/code/modules:.
 ```
 
 Overnight the sync jobs will run and you can see that they are setup correctly by running:

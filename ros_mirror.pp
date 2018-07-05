@@ -1,4 +1,4 @@
-import 'mirror'
+include 'mirror'
 
 include apt
 
@@ -17,14 +17,14 @@ package { 'apt-mirror':
 
 file {'/mirror/packages.ros.org/mirror.list':
   ensure => file,
-  mode => 664,
+  mode => '0664',
   owner => 'rosmirror',
   source => 'puppet:///modules/mirror/mirror.list',
 }
 
 file {['/mirror', '/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror', '/mirror/packages.ros.org/mirror/packages.ros.org', '/mirror/packages.ros.org/mirror/packages.osrfoundation.org', '/mirror/wiki.ros.org', '/mirror/docs.ros.org']:
   ensure => directory,
-  mode   => 644,
+  mode   => '0644',
   owner  => 'rosmirror',
   before => [ Apache::Vhost['packages.ros.org.mirror'],
               File['/mirror/packages.ros.org/mirror.list'] ],
