@@ -22,7 +22,7 @@ sudo puppet module install puppetlabs/rsync
 sudo puppet module install puppet-unattended_upgrades
 git clone https://github.com/ros-infrastructure/mirror.git
 cd mirror
-sudo puppet apply ros_mirror.pp --modulepath=/etc/puppetlabs/code/modules:.
+sudo puppet apply ros_mirror.pp --modulepath=/etc/puppet/modules:/etc/puppetlabs/code/modules:. # /etc/puppet/modules can be removed after EOL support for puppet 3.x
 ```
 
 Overnight the sync jobs will run and you can see that they are setup correctly by running:
