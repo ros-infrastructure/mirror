@@ -55,6 +55,18 @@ deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu stretch main
 
+deb http://packages.ros.org/ros/ubuntu buster main
+#deb-arm64 http://packages.ros.org/ros/ubuntu buster main
+deb-armhf http://packages.ros.org/ros/ubuntu buster main
+deb-i386 http://packages.ros.org/ros/ubuntu buster main
+deb-src http://packages.ros.org/ros/ubuntu buster main
+
+deb http://packages.ros.org/ros-testing/ubuntu buster main
+#deb-arm64 http://packages.ros.org/ros-testing/ubuntu buster main
+deb-armhf http://packages.ros.org/ros-testing/ubuntu buster main
+deb-i386 http://packages.ros.org/ros-testing/ubuntu buster main
+deb-src http://packages.ros.org/ros-testing/ubuntu buster main
+
 deb http://packages.ros.org/ros/ubuntu precise main
 deb-armhf http://packages.ros.org/ros/ubuntu precise main
 deb-i386 http://packages.ros.org/ros/ubuntu precise main
@@ -135,6 +147,18 @@ deb-armhf http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
 deb-i386 http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
 deb-src http://packages.ros.org/ros-shadow-fixed/ubuntu bionic main
 
+deb http://packages.ros.org/ros/ubuntu focal main
+#deb-arm64 http://packages.ros.org/ros/ubuntu focal main
+deb-armhf http://packages.ros.org/ros/ubuntu focal main
+deb-i386 http://packages.ros.org/ros/ubuntu focal main
+deb-src http://packages.ros.org/ros/ubuntu focal main
+
+deb http://packages.ros.org/ros-testing/ubuntu focal main
+#deb-arm64 http://packages.ros.org/ros-testing/ubuntu focal main
+deb-armhf http://packages.ros.org/ros-testing/ubuntu focal main
+deb-i386 http://packages.ros.org/ros-testing/ubuntu focal main
+deb-src http://packages.ros.org/ros-testing/ubuntu focal main
+
 clean http://packages.ros.org/ros-shadow-fixed/ubuntu
 clean http://packages.ros.org/ros/ubuntu
 
@@ -179,6 +203,12 @@ deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
 deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
 deb-src http://packages.osrfoundation.org/gazebo/ubuntu-stable bionic main
 
+deb http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main
+deb-armhf http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main
+deb-i386 http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main
+deb-src http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main
+
 deb http://packages.osrfoundation.org/gazebo/debian-stable jessie main
 #deb-arm64 http://packages.osrfoundation.org/gazebo/debian-stable jessie main
 deb-armhf http://packages.osrfoundation.org/gazebo/debian-stable jessie main
@@ -190,6 +220,12 @@ deb http://packages.osrfoundation.org/gazebo/debian-stable stretch main
 deb-armhf http://packages.osrfoundation.org/gazebo/debian-stable stretch main
 deb-i386 http://packages.osrfoundation.org/gazebo/debian-stable stretch main
 deb-src http://packages.osrfoundation.org/gazebo/debian-stable stretch main
+
+deb http://packages.osrfoundation.org/gazebo/debian-stable buster main
+#deb-arm64 http://packages.osrfoundation.org/gazebo/debian-stable buster main
+deb-armhf http://packages.osrfoundation.org/gazebo/debian-stable buster main
+deb-i386 http://packages.osrfoundation.org/gazebo/debian-stable buster main
+deb-src http://packages.osrfoundation.org/gazebo/debian-stable buster main
 
 clean http://packages.osrfoundation.org/gazebo/debian-stable
 clean http://packages.osrfoundation.org/gazebo/ubuntu-stable
